@@ -14,7 +14,7 @@ class Profile {
  public:
 
 
-    Profile();
+    Profile(string addedName);
     ~Profile();
 
 };
