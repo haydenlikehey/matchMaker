@@ -4,11 +4,8 @@ using namespace std;
 
 class Profile {
 
-    string name;
     int age;
-    string city;
-    string country;
-    string pronouns;
+    string name, city, country, pronouns; 
     vector<string> hobbies;
 
  public:
