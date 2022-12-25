@@ -4,7 +4,7 @@ using namespace std;
 
 int main(int argc, char* argv[]) {
 
-    
-
+   Profile sam ("Sam", 30, "New York", "USA", "he/him");
+   
 
 }
