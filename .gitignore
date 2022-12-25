@@ -3,3 +3,4 @@
 .vscode/settings.json
 matchMaker.code-workspace
 requiredTest
+/build

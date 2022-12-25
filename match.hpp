@@ -14,5 +14,7 @@ class Profile {
 
     Profile(string setName, int setAge, string setCity, string setCountry, string setPronouns = "they/them");
     ~Profile();
+    //void view_profile();
+    string view_profile();
 
 };
