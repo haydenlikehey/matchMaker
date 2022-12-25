@@ -24,7 +24,7 @@ Profile::~Profile() {
 
 string Profile::view_profile() {
     
-    string retVal = "Name: " + name + "\nAge: " + to_string(age) + "\nCity: " + city + "\nCountry: " + country + "\nPronouns: " + pronouns;
+    string retVal = "Name: " + name + "\nAge: " + to_string(age) + "\nCity: " + city + "\nCountry: " + country + "\nPronouns: " + pronouns + "\n";
 
     return retVal;
 
