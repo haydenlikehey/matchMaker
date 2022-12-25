@@ -5,9 +5,14 @@ using namespace std;
 
 
 //constructor
-Profile::Profile(string addedName) {
+Profile::Profile(string setName, int setAge, string setCity, string setCountry, string setPronouns) {
     
-    name = addedName;
+    name = setName;
+    age = setAge;
+    city = setCity;
+    country = setCountry;
+    pronouns = setPronouns;
+
     
 }
 
