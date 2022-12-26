@@ -16,5 +16,6 @@ class Profile {
     ~Profile();
     //void view_profile();
     string view_profile();
+    void add_hobby(string new_hobby);
 
 };

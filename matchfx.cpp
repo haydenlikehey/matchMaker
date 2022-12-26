@@ -29,6 +29,12 @@ string Profile::view_profile() {
     return retVal;
 
 }
+
+void Profile::add_hobby(string new_hobby) {
+
+    hobbies.push_back(new_hobby);
+
+}
 /*
 void Profile::view_profile(void) {
 
