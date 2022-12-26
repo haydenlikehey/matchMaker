@@ -10,7 +10,7 @@ int main(int argc, char* argv[]) {
 	sam.add_hobby("playing rec sports like bowling and kickball");
 	sam.add_hobby("writing a speculative fiction novel");
 	sam.add_hobby("reading advice columns");
-   
+
 	cout << sam.view_profile();
 
 }
