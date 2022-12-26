@@ -24,7 +24,13 @@ Profile::~Profile() {
 
 string Profile::view_profile() {
     
-    string retVal = "Name: " + name + "\nAge: " + to_string(age) + "\nCity: " + city + "\nCountry: " + country + "\nPronouns: " + pronouns + "\n";
+    string retVal = "Name: " + name + "\nAge: " + to_string(age) + "\nCity: " + city + "\nCountry: " + country + "\nPronouns: " + pronouns + "\n" + "Hobbies: \n";
+
+    for (int i = hobbies.size(); i < 0; i--) {
+
+        retVal += "-" + hobbies[i] + "\n";
+
+    }
 
     return retVal;
 
